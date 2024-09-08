@@ -24,30 +24,30 @@ This project is a portfolio website designed to showcase your skills and project
 
  2. **Setup Supabase**
 
-To integrate Supabase with your project, follow these steps:
+   To integrate Supabase with your project, follow these steps:
+   
+   a). **Create a Supabase Project**
+   
+      Visit [Supabase](https://supabase.com) and create a new project. 
+   
+   b). **Obtain Supabase Credentials**
+   
+      Once your project is created, obtain your Supabase URL and API key from the Supabase dashboard.
 
-a). **Create a Supabase Project**
 
-   Visit [Supabase](https://supabase.com) and create a new project. 
+   c). **Create a Table**
+   
+   In the Supabase dashboard, navigate to the **Database** section and create a table to store your data.
+   
+   ### Configure Authentication Policies
+   
+   Go to the **Authentication** section, click on **Policies**, and create a new policy to allow data insertion into your table.
 
-b). **Obtain Supabase Credentials**
-
-   Once your project is created, obtain your Supabase URL and API key from the Supabase dashboard.
-
-
-c). **Create a Table**
-
-In the Supabase dashboard, navigate to the **Database** section and create a table to store your data.
-
-### Configure Authentication Policies
-
-Go to the **Authentication** section, click on **Policies**, and create a new policy to allow data insertion into your table.
-
-For more detailed information, [click here to watch the setup video](https://your-video-url.com).
-
-By following these steps, you'll set up Supabase for your project and configure it to interact with your database securely. 
-
-d). **Configure Supabase in Your Project**
+   For more detailed information, [click here to watch the setup video](https://your-video-url.com).
+   
+   By following these steps, you'll set up Supabase for your project and configure it to interact with your database securely. 
+   
+   d). **Configure Supabase in Your Project**
 
    Open `query.js` and add your Supabase URL and API key as shown below:
 
