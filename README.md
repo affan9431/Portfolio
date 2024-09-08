@@ -28,11 +28,11 @@ This project is a portfolio website designed to showcase your skills and project
    
    a). **Create a Supabase Project**
    
-      Visit [Supabase](https://supabase.com) and create a new project. 
+   Visit [Supabase](https://supabase.com) and create a new project. 
    
    b). **Obtain Supabase Credentials**
    
-      Once your project is created, obtain your Supabase URL and API key from the Supabase dashboard.
+ Once your project is created, obtain your Supabase URL and API key from the Supabase dashboard.
 
 
    c). **Create a Table**
@@ -54,11 +54,12 @@ This project is a portfolio website designed to showcase your skills and project
    ```javascript
    // query.js
 
-   import { createClient } from '@supabase/supabase-js';
+      import { createClient } from '@supabase/supabase-js';
+   
+      const supabaseUrl = 'YOUR_SUPABASE_URL';
+      const supabaseKey = 'YOUR_SUPABASE_KEY';
+      const supabase = createClient(supabaseUrl, supabaseKey);
 
-   const supabaseUrl = 'YOUR_SUPABASE_URL';
-   const supabaseKey = 'YOUR_SUPABASE_KEY';
-   const supabase = createClient(supabaseUrl, supabaseKey);
 
 
    
